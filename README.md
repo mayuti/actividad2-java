@@ -146,8 +146,50 @@ El proyecto fue desarrollado de manera modular, respetando buenas prácticas de 
 
 ## 🔗 Repositorio en GitHub
 
-[Repositorio GitHub del proyecto](https://github.com/mayuti/actividad2-java)  
-_(Completar al subir el proyecto)_
+[Repositorio GitHub del proyecto](https://github.com/mayuti/actividad2-java)
+
+Repositorio creado en GitHub y vinculado correctamente desde el entorno local.  
+Todos los cambios se realizaron sobre la rama `master`, la cual quedó configurada como la rama principal del proyecto.
+
+A continuación, se detallan los pasos realizados desde la terminal:
+
+```bash
+PS C:\Users\admin\Actividad2> git init
+Initialized empty Git repository in C:/Users/admin/Actividad2/.git/
+
+PS C:\Users\admin\Actividad2> git add .
+warning: in the working copy of '.vscode/settings.json', CRLF will be replaced by LF...
+# (otros warnings similares omitidos por brevedad)
+
+PS C:\Users\admin\Actividad2> git commit -m "Versión inicial - Actividad 2 Java con Maven"
+[master (root-commit) 74446f6] Versión inicial - Actividad 2 Java con Maven
+ 13 files changed, 269 insertions(+)
+
+PS C:\Users\admin\Actividad2> git branch -M master
+PS C:\Users\admin\Actividad2> git remote add origin https://github.com/mayuti/actividad2-java.git
+PS C:\Users\admin\Actividad2> git push -u origin master
+Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (35/35), done.
+To https://github.com/mayuti/actividad2-java.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'
+```
+
+---
+
+## ✅ Estado del proyecto
+
+| Requisito                             | Estado |
+|--------------------------------------|--------|
+| Proyecto Maven                       | ✅     |
+| Librerías `commons-cli` y `log4j`    | ✅     |
+| Código funcional con logs y CLI      | ✅     |
+| JAR ejecutable generado              | ✅     |
+| `README.md` detallado                | ✅     |
+| Subida a GitHub                      | ✅     |
+
 
 ---
 
