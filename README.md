@@ -1,4 +1,31 @@
+<p align="left">
+  <img src="https://udelaciudad.edu.ar/wp-content/uploads/2025/01/Logos-3-png_Logo-secundario-1-300x145.png" alt="U.C. de Bs. As." width="120" align=right>
+</p>
+
 # Actividad 2 - Desarrollo en Java con Maven
+
+## 📋 Consigna de la actividad
+
+La **Actividad 2** de la materia **Programación de Vanguardia (Java - ChatGPT)** consiste en desarrollar una aplicación Java con Maven que cumpla los siguientes puntos:
+
+1. Desarrollar una aplicación que utilice Maven y que genere un `.jar`.  
+   El artefacto debe ser `Actividad2`, con `groupId: ar.edu.udeci.pv` y versión `1.0-SNAPSHOT`.
+
+2. El proyecto debe contener las siguientes librerías:
+   - `commons-cli`
+   - `log4j`
+
+3. Solicitar a una LLM (modelo de lenguaje) un ejemplo de código para cada librería e incluirlo en la entrega.
+
+4. Ejecutar la aplicación utilizando Maven.
+
+5. Armar un archivo `README.md` en la raíz del proyecto con toda la explicación sobre el desarrollo y funcionamiento del proyecto.
+
+6. Subir el proyecto a GitHub.
+
+7. Entregar la URL del repositorio al docente.
+
+---
 
 ## Información del desarrollador
 
